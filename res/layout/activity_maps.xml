@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical" >
+	<com.google.android.maps.MapView
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:apiKey="0TxHC0du2pznRMouVv7Wr0E-8Zi8Xi8wTBftmtA" 
+		android:id="@+id/mvMain"
+		android:enabled="true"
+		android:clickable="true"
+		/>"
+	
+</LinearLayout>
+
+<!--
+///////////////////////////////////////////////////////////////////////////////
+configuracion del emulador y del projecto
+
+
+/////////////////////////////////////////////////////////////////////////////// 
+Implementando mapas en android solo para debug de la aplicacion:
+
+Para implementar una plaicacion con mapas primero se debe de registrar la una llave
+para la aplicacion (una por cada aplicacion).
+
+para registrar la apiKey se dirige a la /archivos de programas/JAva/JDK isntalado/bin/
+con la herramienta "keytool" se genera una nueva key en el almacen de claves
+"C:\Documents and Settings\Usuario\.android\debug.keystore"
+
+se abre una terminal y se escribe el siguiente comando:
+
+$ keytool -list -alias androiddebugkey -keystore C:\Documents/ and/ Settings\Usuario\.android\debug.keystore -storepass android -keypass android
+
+el comando genera una huella md5 similar a 0F:2A:CC:05:F7:79:10:24:D3:ED:4E:C9:9B:37:EE:D4
+esa huella debe colocarla en el respecivo campo del formulario en: https://developers.google.com/android/maps-api-signup
+aceptar el checkbox y pulsar en el boton "Generate Api Key"
+
+esto genera
+ el apikey:
+0TxHC0du2pznRMouVv7Wr0E-8Zi8Xi8wTBftmtA
+
+md5 qgenerado desde keytool
+0F:2A:CC:05:F7:79:10:24:D3:ED:4E:C9:9B:37:EE:D4
+
+codigo para incrustar el api de googlemap
+<com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0TxHC0du2pznRMouVv7Wr0E-8Zi8Xi8wTBftmtA"
+                 />
+ -->
