@@ -6,7 +6,7 @@
 	<com.google.android.maps.MapView
 		android:layout_width="fill_parent"
 		android:layout_height="fill_parent"
-		android:apiKey="0TxHC0du2pznRMouVv7Wr0E-8Zi8Xi8wTBftmtA" 
+		android:apiKey="0TxHC0du2pznL_urTm8Iy_Wfb69VJbltBpKwpcg" 
 		android:id="@+id/mvMain"
 		android:enabled="true"
 		android:clickable="true"
@@ -17,7 +17,9 @@
 <!--
 ///////////////////////////////////////////////////////////////////////////////
 configuracion del emulador y del projecto
-
+descargar la Google Api respectiva de la version de android requerida
+connfigurar un nuevo dispositivo en emulador de android con la version del APi
+configurar un proyecto nuevo y en el BUild SDk seleccionar el Google api
 
 /////////////////////////////////////////////////////////////////////////////// 
 Implementando mapas en android solo para debug de la aplicacion:
