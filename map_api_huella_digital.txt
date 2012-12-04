@@ -1,0 +1,12 @@
+Huella digital de certificado (MD5): 0F:2A:CC:05:F7:79:10:24:D3:ED:4E:C9:9B:37:EE:D4
+
+tu clave es:
+0TxHC0du2pznRMouVv7Wr0E-8Zi8Xi8wTBftmtA
+
+0F:2A:CC:05:F7:79:10:24:D3:ED:4E:C9:9B:37:EE:D4
+
+<com.google.android.maps.MapView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:apiKey="0TxHC0du2pznRMouVv7Wr0E-8Zi8Xi8wTBftmtA"
+                 />

@@ -10,7 +10,7 @@
 		android:id="@+id/mvMain"
 		android:enabled="true"
 		android:clickable="true"
-		/>"
+		/>
 	
 </LinearLayout>
 
